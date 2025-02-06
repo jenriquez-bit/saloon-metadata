@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Libs\Saloon\Traits;
+namespace BitMx\SaloonMetadata\Traits;
 
-use App\Libs\Saloon\Contracts\Metadatable;
-use App\Libs\Saloon\Exceptions\MetadataException;
+use BitMx\SaloonMetadata\Contracts\Metadatable;
+use BitMx\SaloonMetadata\Exceptions\MetadataException;
 use Saloon\Http\PendingRequest;
 use Saloon\Repositories\Body\ArrayBodyRepository;
 

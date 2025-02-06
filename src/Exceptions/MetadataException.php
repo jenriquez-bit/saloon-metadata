@@ -1,5 +1,5 @@
 <?php
 
-namespace App\Libs\Saloon\Exceptions;
+namespace BitMx\SaloonMetadata\Exceptions;
 
 class MetadataException extends \Exception {}
