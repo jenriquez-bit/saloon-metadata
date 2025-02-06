@@ -1,0 +1,12 @@
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+    level: 7
+    paths:
+        - src
+
+    type_coverage:
+        return: 100
+        param: 100
+        property: 100

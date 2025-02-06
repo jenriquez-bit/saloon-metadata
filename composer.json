@@ -21,11 +21,15 @@
     },
     "require-dev": {
         "laravel/pint": "^1.15",
-        "pestphp/pest": "^2.34"
+        "pestphp/pest": "^2.34",
+        "phpstan/phpstan": "^2.0",
+        "phpstan/extension-installer": "^1.4.0",
+        "tomasvotruba/type-coverage": "^2.0.2"
     },
     "config": {
         "allow-plugins": {
-            "pestphp/pest-plugin": true
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
         }
     }
 }

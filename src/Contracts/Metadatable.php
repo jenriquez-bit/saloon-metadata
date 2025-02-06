@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Libs\Saloon\Contracts;
+namespace BitMx\SaloonMetadata\Contracts;
 
 use Saloon\Repositories\Body\ArrayBodyRepository;
 
